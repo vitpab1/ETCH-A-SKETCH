@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(217, 223, 206);
+}
+
+h1 {
+  text-align: center;
+}
+.main-square {
+  height: 500px;
+  width: 500px;
+
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -250px;
+  margin-left: -250px;
+  border: black;
+  border-style: solid;
+  background-color: black;
+  display: grid;
+  grid-gap: 1px;
+  border-color: black;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 20%;
+  height: 25px;
+  background: #9b9999;
+  outline: none;
+  opacity: 0.9;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #000000;
+  cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#main-square div {
+  background-color: whitesmoke;
+}
