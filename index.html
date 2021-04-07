@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta name="theme-color" content="#whitesmoke" >
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
 <head>
@@ -12,12 +12,11 @@
 </head>
 
 <body onload="changeValue(32)">
+  
   <header>
     <h1>ETCH-A-SKETCH</h1>
   </header>
-
-  <div class="main-square" id="main-square"></div>
-
+<div class="container">
   <div class="range-input">
     <label for="size">Grid Size:</label>
     <input
@@ -29,7 +28,15 @@
       max="64"
       value="32"
       onchange="changeValue(this.value)"
-    />
-  </div>
+    />  </div>
+    
+  <div class="main-square" id="main-square"></div>
+<div class="invisible"></div>
+
+  
+</div>
+
+
+
 </body>
 </html>
